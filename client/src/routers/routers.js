@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/index', async function (req,res){
+router.get('/index', async (req,res)=>{
     res.send('../views/index');
 })
 
